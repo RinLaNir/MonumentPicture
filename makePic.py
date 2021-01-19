@@ -133,8 +133,8 @@ def makeName(svgName, name, color, index, template):
 def makeNumber(svgNumber, number, color, index, template):
     template['color'] = color
     template['number'] = parseName(number)
-    svg2png(bytestring=svgNumber.safe_substitute(template), write_to=f"pictures\\temp\\names\\name{index + 1}.png")
-    return Image.open(f"pictures\\temp\\names\\name{index + 1}.png")
+    svg2png(bytestring=svgNumber.safe_substitute(template), write_to=f"pictures\\temp\\numbers\\number{index + 1}.png")
+    return Image.open(f"pictures\\temp\\numbers\\number{index + 1}.png")
 
 
 def clearDirectory(folder):
