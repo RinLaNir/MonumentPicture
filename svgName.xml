@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${width}px" height="${height}px">
+    <text transform="matrix(0.75,0,0,1,0,0)" fill="rgb(0, 0, 0)" font-size="66.667px" x="0px" y="50%" dominant-baseline="middle">
+        <tspan font-size="66.667px" font-family="seguibl" fill="$color">${name}</tspan>
+    </text>
+</svg>
